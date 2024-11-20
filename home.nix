@@ -78,7 +78,9 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+  programs.fd.enable = true;
   programs.bat.enable = true;
+  programs.mpv.enable = true;
   programs.git = {
     enable = true;
     userName = "Allie Griffin";
